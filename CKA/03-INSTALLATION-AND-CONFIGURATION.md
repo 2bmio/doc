@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T14:31:26.668Z
+date: 2020-06-05T14:32:36.923Z
 tags: 
 editor: markdown
 ---
@@ -12,7 +12,10 @@ Your content here
 
 
 ## microk8s
+https://microk8s.io/docs/release-notes
 
+
+### install
 ```
 # get available list for microk8s
 snap info microk8s
