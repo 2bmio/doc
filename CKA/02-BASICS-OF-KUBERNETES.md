@@ -2,7 +2,7 @@
 title: 02. BASICS OF KUBERNETES
 description: 
 published: true
-date: 2020-06-05T13:17:30.706Z
+date: 2020-06-05T13:18:10.425Z
 tags: 
 editor: markdown
 ---
