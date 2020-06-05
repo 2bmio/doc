@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T17:26:07.844Z
+date: 2020-06-05T17:28:50.762Z
 tags: 
 editor: markdown
 ---
@@ -39,19 +39,20 @@ snap info multipass
 # launch:
 
 ## single instance
-multipass launch --name k8s-1_18-AllTheWay --mem 8G --disk 40G
+multipass launch --name k8s-182-AllTheWay --mem 8G --disk 40G
 
 ## multinode 
-multipass launch --name k8s-1_18-master-1 --mem 2G --disk 20G
-multipass launch --name k8s-1_18-master-2 --mem 2G --disk 20G
-multipass launch --name k8s-1_18-master-3 --mem 2G --disk 20G
-multipass launch --name k8s-1_18-worker-1 --mem 2G --disk 10G
-multipass launch --name k8s-1_18-worker-2 --mem 2G --disk 10G
-multipass launch --name k8s-1_18-worker-3 --mem 2G --disk 10G
+multipass launch --name k8s-182-master-1 --mem 2G --disk 20G
+multipass launch --name k8s-182-master-2 --mem 2G --disk 20G
+multipass launch --name k8s-182-master-3 --mem 2G --disk 20G
+multipass launch --name k8s-182-worker-1 --mem 2G --disk 10G
+multipass launch --name k8s-182-worker-2 --mem 2G --disk 10G
+multipass launch --name k8s-182-worker-3 --mem 2G --disk 10G
 
 # getting on
 multipass list
-multipass shell k8s-master
+multipass shell k8s-182-AllTheWay
+multipass shell k8s-182-master-1
 
 ## using classic ssh with key
 ### copy the new key to user path
