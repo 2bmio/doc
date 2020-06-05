@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T17:23:41.931Z
+date: 2020-06-05T17:25:34.014Z
 tags: 
 editor: markdown
 ---
@@ -42,12 +42,12 @@ snap info multipass
 multipass launch --name k8s-master --mem 8G --disk 40G
 
 ## multinode 
-multipass launch --name k8s-1.18-master-1 --mem 2G --disk 20G
-multipass launch --name k8s-1.18-master-2 --mem 2G --disk 20G
-multipass launch --name k8s-1.18-master-3 --mem 2G --disk 20G
-multipass launch --name k8s-1.18-worker-1 --mem 2G --disk 10G
-multipass launch --name k8s-1.18-worker-2 --mem 2G --disk 10G
-multipass launch --name k8s-1.18-worker-3 --mem 2G --disk 10G
+multipass launch --name k8s-1_18-master-1 --mem 2G --disk 20G
+multipass launch --name k8s-1_18-master-2 --mem 2G --disk 20G
+multipass launch --name k8s-1_18-master-3 --mem 2G --disk 20G
+multipass launch --name k8s-1_18-worker-1 --mem 2G --disk 10G
+multipass launch --name k8s-1_18-worker-2 --mem 2G --disk 10G
+multipass launch --name k8s-1_18-worker-3 --mem 2G --disk 10G
 
 # getting on
 multipass list
