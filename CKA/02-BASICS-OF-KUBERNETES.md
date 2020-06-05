@@ -2,7 +2,7 @@
 title: 02. BASICS OF KUBERNETES
 description: 
 published: true
-date: 2020-06-05T12:50:18.506Z
+date: 2020-06-05T12:53:19.239Z
 tags: 
 editor: markdown
 ---
@@ -23,5 +23,4 @@ Your content here
 	+ kubelet
 	+ kube-proxy
 
-
-[qbtsrlj644au-kubernetesarchitecture.png](/cka/qbtsrlj644au-kubernetesarchitecture.png)
+![qbtsrlj644au-kubernetesarchitecture.png](/cka/qbtsrlj644au-kubernetesarchitecture.png)
