@@ -2,13 +2,65 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T14:32:36.923Z
+date: 2020-06-05T17:21:42.541Z
 tags: 
 editor: markdown
 ---
 
 # 03. INSTALLATION AND CONFIGURATION
 Your content here
+
+## multipass
+### install
+
+```
+# macos
+brew cask install multipass
+
+# linux fedora/arch/ubuntu
+
+	# prepare for use snap
+sudo dnf install snapd
+sudo ln -s /var/lib/snapd/snap /snap
+
+	# install using snap
+sudo snap install multipass --classic
+
+	# fix user permissions
+sudo chown $USER:$USER /var/snap/multipass/common/multipass_socket
+
+	# get info about multipass
+snap info multipass
+```
+
+### commands
+
+```
+# launch:
+
+## single instance
+multipass launch --name k8s-master --mem 8G --disk 40G
+
+## multinode 
+multipass launch --name k8s-master-1 --mem 2G --disk 20G
+multipass launch --name k8s-master-2 --mem 2G --disk 20G
+multipass launch --name k8s-master-3 --mem 2G --disk 20G
+multipass launch --name k8s-worker-1 --mem 2G --disk 10G
+multipass launch --name k8s-worker-2 --mem 2G --disk 10G
+multipass launch --name k8s-worker-3 --mem 2G --disk 10G
+
+# getting on
+multipass list
+multipass shell k8s-master
+
+## using classic ssh with key
+### copy the new key to user path
+sudo cp /var/snap/multipass/common/data/multipassd/ssh-keys/id_rsa ~/.ssh/id_mpss
+### change permissions
+sudo chown $USER:$USER ~/.ssh/id_mpss
+### connect
+ssh ubuntu@<multipass-ip> -i ~/.ssh/id_mpss
+```
 
 
 ## microk8s
