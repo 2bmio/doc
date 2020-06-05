@@ -2,7 +2,7 @@
 title: 02. BASICS OF KUBERNETES
 description: 
 published: true
-date: 2020-06-05T13:01:36.544Z
+date: 2020-06-05T13:17:30.706Z
 tags: 
 editor: markdown
 ---
@@ -14,7 +14,7 @@ Your content here
 
 
 + master
-	+ etc
+	+ etcd
 	+ kube-controller-manager
 	+ kube-scheduler
 	+ kube-apiserver
@@ -32,5 +32,14 @@ Deployment
 PodSpec
 Jobs
 CronJobs
+
+
+> Which of the following are part of a Pod?
+>> 	A. One or more containers
+		B. Shared IP address
+		C. One namespace
+		D. All of the above ←←←
+
+
 
 
