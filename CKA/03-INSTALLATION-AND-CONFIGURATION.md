@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T17:25:34.014Z
+date: 2020-06-05T17:26:07.844Z
 tags: 
 editor: markdown
 ---
@@ -39,7 +39,7 @@ snap info multipass
 # launch:
 
 ## single instance
-multipass launch --name k8s-master --mem 8G --disk 40G
+multipass launch --name k8s-1_18-AllTheWay --mem 8G --disk 40G
 
 ## multinode 
 multipass launch --name k8s-1_18-master-1 --mem 2G --disk 20G
