@@ -2,7 +2,7 @@
 title: 04. KUBERNETES ARCHITECTURE
 description: 
 published: true
-date: 2020-06-07T14:52:27.898Z
+date: 2020-06-07T14:57:57.592Z
 tags: 
 editor: markdown
 ---
@@ -26,3 +26,20 @@ By the end of this chapter, you should be able to:
 *   Examine network configurations of a cluster.
 
 *   Discuss Kubernetes services.
+
+## Main Components
+Kubernetes has the following main components:
+
+>**Master and worker nodes**
+~text~
+**Controllers**
+**Services**
+~text~
+**Pods of containers**
+~text~
+**Namespaces and quotas**
+~text~
+**Network and policies**
+~text~
+**Storage**
+
