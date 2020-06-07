@@ -2,7 +2,7 @@
 title: 04. KUBERNETES ARCHITECTURE
 description: 
 published: true
-date: 2020-06-07T15:22:59.006Z
+date: 2020-06-07T15:29:53.289Z
 tags: 
 editor: markdown
 ---
@@ -46,7 +46,7 @@ Kubernetes has the following main components:
 
 ![qbtsrlj644au-kubernetesarchitecture.png](/cka/qbtsrlj644au-kubernetesarchitecture.png)
 
-
+---
 
 ## Master node
 control plane
@@ -68,5 +68,17 @@ control plane
 
 >**cloud-controller-manager**
 >* Remaining in beta in v1.16, the cloud-controller-manager (ccm) interacts with agents outside of the cloud. It handles tasks once handled by kube-controller-manager. This allows faster changes without altering the core Kubernetes control process. Each kubelet must use the --cloud-provider-external settings passed to the binary. You can also develop your own ccm, which can be deployed as a daemonset as an in-tree deployment or as a free-standing out-of-tree installation. The cloud-controller-manager is an optional agent which takes a few steps to enable. You can learn more about the cloud-controller-manager online.
+
+---
+
+## Worker Nodes
+>**kubelet and kube-proxy**
+>* All worker nodes run the kubelet and kube-proxy, as well as the container engine, such as Docker or rkt. Other management daemons are deployed to watch these agents or provide services not yet included with Kubernetes.
+>* The kubelet interacts with the underlying Docker Engine also installed on all the nodes, and makes sure that the containers that need to run are actually running. The kube-proxy is in charge of managing the network connectivity to the containers. It does so through the use of iptables entries. It also has the userspace mode, in which it monitors Services and Endpoints using a random port to proxy traffic and an alpha feature of ipvs.
+>* You can also run an alternative to the Docker engine: cri-o or rkt. To learn how you can do that, you should check the documentation. In future releases, it is highly likely that Kubernetes will support additional container runtime engines.
+>* Supervisord is a lightweight process monitor used in traditional Linux environments to monitor and notify about other processes. In the cluster, this daemon monitors both the kubelet and docker processes. It will try to restart them if they fail, and log events. While not part of a standard installation, some may add this monitor for added reporting.
+>* Kubernetes does not have cluster-wide logging yet. Instead, another CNCF project is used, called Fluentd. When implemented, it provides a unified logging layer for the cluster, which filters, buffers, and routes messages.
+
+
 
 
