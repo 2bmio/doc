@@ -2,7 +2,7 @@
 title: 04. KUBERNETES ARCHITECTURE
 description: 
 published: true
-date: 2020-06-07T14:57:57.592Z
+date: 2020-06-07T15:01:23.406Z
 tags: 
 editor: markdown
 ---
@@ -33,6 +33,7 @@ Kubernetes has the following main components:
 >**Master and worker nodes**
 ~text~
 **Controllers**
+~text~
 **Services**
 ~text~
 **Pods of containers**
