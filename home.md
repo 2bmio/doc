@@ -2,13 +2,37 @@
 title: home
 description: 
 published: true
-date: 2020-06-11T14:28:58.573Z
+date: 2020-06-20T18:45:21.122Z
 tags: 
 editor: markdown
 ---
 
 # home
 Your content here
+
+
+
+
+
+### Anki Recommended Settings
+
+```
+New Cards
+    Steps in minutes    15 1440 8640
+    Order               random
+    New Cards/day       50
+    Graduating interval 15
+    Easy intervals      60
+Reviews
+    Maximum reviews/day 9999
+    Maximum interval    90
+Lapses
+    Steps               20
+    New interval        70%
+    Minimum interval    2
+    Leech action        Tag Only
+```
+
 
 
 ### Extending a Linux file system after resizing a volume
