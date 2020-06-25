@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2020-06-20T18:45:21.122Z
+date: 2020-06-25T20:46:00.245Z
 tags: 
 editor: markdown
 ---
@@ -71,4 +71,20 @@ resize2fs 1.45.5 (07-Jan-2020)
 
 bot@dev-1:~$ df -h
 /dev/sda2       118G   12G  101G  11% /
+```
+
+
+
+# VSCode 
+VScodium are now using open-vsx.org as extension gallery.
+```
+# to back swtich the extension gallery
+
+sudo vim /usr/share/vscodium-bin/resources/app/product.json
+
+"extensionsGallery": {
+    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+    "itemUrl": "https://marketplace.visualstudio.com/items"
+}
+
 ```
