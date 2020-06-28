@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T14:11:07.800Z
+date: 2020-06-28T14:25:54.925Z
 tags: 
 editor: markdown
 ---
