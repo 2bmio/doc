@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T17:38:40.766Z
+date: 2020-06-28T18:25:23.519Z
 tags: 
 editor: markdown
 ---
@@ -27,3 +27,6 @@ Logical operators
 Address operators
 Receive operators
 
+Shorthand Operators
+
+Comparing Values
