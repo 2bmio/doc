@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T17:26:22.667Z
+date: 2020-06-28T17:38:26.715Z
 tags: 
 editor: markdown
 ---
@@ -21,5 +21,10 @@ Operators:
 
 While variables hold the data for your application, they become truly useful when you start using them to build the logic of your software. Operators are the tools you use to work with your software's data. With operators, you can compare data to other data. For example, you can check whether a price is too low or too high in a trading application. You can also use operators to manipulate data. For example, you can use operators to add the costs of all the items in a shopping cart to get the total price.
 
+Arithmetic operators
+Comparison operators
+Logical operators
+Address operators
+Address operators
 
 
