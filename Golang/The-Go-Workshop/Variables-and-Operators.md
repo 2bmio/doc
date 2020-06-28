@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T18:50:29.870Z
+date: 2020-06-28T20:01:41.897Z
 tags: 
 editor: markdown
 ---
@@ -40,6 +40,7 @@ Address operators
 Receive operators
 
 Zero Values
+fmt.Printf to expose more detail about the values
 
 
 
