@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T18:37:49.218Z
+date: 2020-06-28T18:38:29.232Z
 tags: 
 editor: markdown
 ---
@@ -33,7 +33,9 @@ Comparison operators
     >
 Logical operators
 	True if
-
+		&&
+    ||
+    !
 Address operators
 Receive operators
 
