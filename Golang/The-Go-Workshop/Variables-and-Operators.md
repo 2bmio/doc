@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T18:35:25.342Z
+date: 2020-06-28T18:37:49.218Z
 tags: 
 editor: markdown
 ---
@@ -24,7 +24,16 @@ While variables hold the data for your application, they become truly useful whe
 Arithmetic operators
   Shorthand Operators
 Comparison operators
+	True if
+  	==
+    !=
+    >=
+    <=
+    <
+    >
 Logical operators
+	True if
+
 Address operators
 Receive operators
 
