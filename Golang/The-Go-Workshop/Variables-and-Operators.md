@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T14:03:07.342Z
+date: 2020-06-28T14:11:07.800Z
 tags: 
 editor: markdown
 ---
@@ -25,10 +25,10 @@ import (
 )
 
 func main() {
-	rand.Seed(time.Now().UnixNano())
-	r := rand.Intn(5) + 1
-	stars := strings.Repeat("*", r)
-	fmt.Println(stars)
+	rand.Seed(time.Now().UnixNano())	// time
+	r := rand.Intn(5) + 1							// math/rand
+	stars := strings.Repeat("*", r)		// strings
+	fmt.Println(stars)								// fmt
 }
 ```
 
