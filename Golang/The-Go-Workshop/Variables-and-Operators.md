@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T14:54:06.773Z
+date: 2020-06-29T14:56:54.577Z
 tags: 
 editor: markdown
 ---
@@ -57,6 +57,64 @@ To get a pointer, you have a few options. You can declare a variable as being a 
 	stars := strings.Repeat("*", r)
 	fmt.Println(stars)
 }
+
+////////////  
+
+var (
+	debug       bool      = true
+	logLevel    string    = "info"
+	startUpTime time.Time = time.Now()
+)
+
+func main() {
+	fmt.Println(debug, logLevel, startUpTime)
+}
+
+////////////
+
+var (
+	debug       = false
+	logLevel    = "info"
+	startUpTime = time.Now()
+)
+
+func main() {
+	fmt.Println(debug, logLevel, startUpTime)
+}
+
+
+////////////  
+func main() {
+	// debug := true
+	// logLevel := "info"
+	// startUpTime := time.Now()
+
+	debug, logLevel, startUpTime := true, "info", time.Now()
+
+	fmt.Println(debug, logLevel, startUpTime)
+}
+
+
+////////////
+
+func getConfig() (bool, string, time.Time) {
+	return true, "info", time.Now()
+}
+
+func main() {
+	debug, logLevel, startUpTime := getConfig()
+	fmt.Println(debug, logLevel, startUpTime)
+}
+
+
+////////////  
+
+
+////////////  
+
+  
+  
+  
 ```
   
   
