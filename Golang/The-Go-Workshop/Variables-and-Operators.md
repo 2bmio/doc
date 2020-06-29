@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T15:19:19.487Z
+date: 2020-06-29T15:20:56.675Z
 tags: 
 editor: markdown
 ---
@@ -231,7 +231,8 @@ func add5Point(count *int) {
 	*count += 5
 	fmt.Println("add5Point: ", *count)
 }
-                                                 ////////////
+
+////////////
 
 const globalLimit = 100
 const maxCacheSize = 10 * globalLimit
