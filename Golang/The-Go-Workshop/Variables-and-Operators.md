@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-28T20:01:41.897Z
+date: 2020-06-29T07:57:59.003Z
 tags: 
 editor: markdown
 ---
@@ -42,5 +42,10 @@ Receive operators
 Zero Values
 fmt.Printf to expose more detail about the values
 
+
+Getting a Pointer
+To get a pointer, you have a few options. You can declare a variable as being a pointer type using a var statement. You can do this by adding an * at the front of most types. This notation looks like var <name> *<type>. The initial value of a variable that uses this method is nil. You can use the built-in new function for this. This function is intended to be used to get some memory for a type and return a pointer to that address. The notation looks like <name> := new(<type>). The new function can be used with var too. You can also get a pointer from an existing variable using &. This looks like <var1> := &<var2>.
+  
+  
 
 
