@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T14:56:54.577Z
+date: 2020-06-29T14:57:18.469Z
 tags: 
 editor: markdown
 ---
@@ -108,6 +108,16 @@ func main() {
 
 
 ////////////  
+  
+var defOffSet = 10
+
+func main() {
+	offset := defOffSet
+	fmt.Println(offset)
+
+	offset += defOffSet
+	fmt.Println(offset)
+}
 
 
 ////////////  
