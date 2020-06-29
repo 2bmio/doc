@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T15:02:36.110Z
+date: 2020-06-29T15:04:22.141Z
 tags: 
 editor: markdown
 ---
@@ -210,9 +210,7 @@ func main() {
 		fmt.Printf("Time: %#v\n", t.String())
 	}
 }
-
 ////////////
-
 func main() {
 	var count int
 	add5Value(count)
@@ -230,7 +228,7 @@ func add5Point(count *int) {
 	*count += 5
 	fmt.Println("add5Point: ", *count)
 }
-                                                        
+
                                                                ////////////
 const globalLimit = 100
 const maxCacheSize = 10 * globalLimit
@@ -276,12 +274,57 @@ func main() {
 	fmt.Println("Book:", getBook("1234-5678"))
 	fmt.Println("DC:", getCD("1234-5678"))
 }
-////////////
 
 ////////////
-                                                               ////////////
+
+func main() {
+
+	firstName := "Bob"
+	lastName := "Smith"
+	age := 34
+	peanutAlergy := false
+
+	fmt.Println(firstName)
+	fmt.Println(lastName)
+	fmt.Println(age)
+	fmt.Println(peanutAlergy)
+}
 
 ////////////
+
+func main() {
+	a, b := 5, 10
+	fmt.Println(a == 10, b == 5)
+	fmt.Println("orig value of A is:", a, "\norig value of B is:", b)
+
+	swap(&a, &b) // core
+	fmt.Println(a == 10, b == 5)
+}
+
+func swap(a *int, b *int) {
+	*a, *b = *b, *a //core
+	fmt.Println("swap value of A:", *a, "\nswap value of B:", *b)
+}
+                                                             ////////////
+func main() {
+	message := ""
+	count := 5
+	if count > 5 {
+		message = "Greater than 5"
+	} else {
+		message = "No greater than 5"
+	}
+	fmt.Println(message)
+}
+////////////
+func main() {
+	count := 0
+	if count < 5 {
+		count = 10
+		count++
+	}
+	fmt.Println(count == 11)
+}
 ```
   
   
