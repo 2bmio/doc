@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T14:58:01.984Z
+date: 2020-06-29T15:02:36.110Z
 tags: 
 editor: markdown
 ---
@@ -127,17 +127,161 @@ func main() {
 }
 
 ////////////    
-  
+func main() {
+	var total float64 = 2 * 13
+	fmt.Println("Sub: ", total)
+	total = total + (4 * 2.25)
+	fmt.Println("Sub: ", total)
+	total = total - 5
+	fmt.Println("Sub: ", total)
+	tip := total * .1
+	fmt.Println("Tip: ", tip)
+	total = total + tip
+	fmt.Println("Total: ", total)
+	split := total / 2
+	fmt.Println("Split: ", split)
+	visitCount := 24
+	visitCount = visitCount + 1
+	remainder := visitCount % 5
+	if remainder == 0 {
+		fmt.Println("Whit this visit, you've earned a rewards")
+	}
+}
 ////////////  
+func main() {
+	count := 5
+	count += 5
+	count++
+	fmt.Println(count)
+	count--
+	fmt.Println(count)
+	count -= 5
+	fmt.Println(count)
+	name := "Jonh"
+	name += " Smith"
+	fmt.Println("Hello,", name)
+}
 
 ////////////    
-  
+func main() {
+	visits := 15
+	fmt.Println("Fist visit :", visits == 1)
+	fmt.Println("Return visit: ", visits != 1)
+	fmt.Println("Silver member: ", visits > 10 && visits < 20)
+	fmt.Println("Golden member: ", visits >= 20 && visits < 30)
+	fmt.Println("Platinum member: ", visits >= 30 && visits < 35)
+}
 ////////////
+func main() {
+	var count int
+	fmt.Printf("Count: %#v \n", count)
+	var discount float64
+	fmt.Printf("Discount: %#v \n", discount)
+	var debug bool
+	fmt.Printf("Debug: %#v \n", debug)
+	var message string
+	fmt.Printf("Message: %#v \n", message)
+	var emails []string
+	fmt.Printf("Emails: %#v \n", emails)
+	var startTime time.Time
+	fmt.Printf("Start %#v \n", startTime)
+}
 
 ////////////    
-  
+
+func main() {
+	var count1 *int
+	count2 := new(int)
+	countTemp := 5
+	count3 := &countTemp
+	t := &time.Time{}
+
+	if count1 != nil {
+		fmt.Printf("Count 1: %#v\n", *count1)
+	}
+	if count2 != nil {
+		fmt.Printf("Count 2: %#v\n", *count2)
+	}
+	if count3 != nil {
+		fmt.Printf("Count 3: %#v\n", *count3)
+	}
+	if t != nil {
+		fmt.Printf("Time: %#v\n", *t)
+		fmt.Printf("Time: %#v\n", t.String())
+	}
+}
+
 ////////////
 
+func main() {
+	var count int
+	add5Value(count)
+	fmt.Println("add5value post: ", count)
+	add5Point(&count)
+	fmt.Println("add5Point post: ", count)
+}
+
+func add5Value(count int) {
+	count += 5
+	fmt.Println("add5Value: ", count)
+}
+
+func add5Point(count *int) {
+	*count += 5
+	fmt.Println("add5Point: ", *count)
+}
+                                                        
+                                                               ////////////
+const globalLimit = 100
+const maxCacheSize = 10 * globalLimit
+
+const (
+	cacheKeyBook = "book_"
+	cacheKeyCD   = "cd_"
+)
+
+var cache map[string]string
+
+func cacheGet(key string) string {
+	return cache[key]
+}
+
+func cacheSet(key, val string) {
+	if len(cache)+1 >= maxCacheSize {
+		return
+	}
+	cache[key] = val
+}
+
+func getBook(isbn string) string {
+	return cacheGet(cacheKeyBook + isbn)
+}
+
+func setBook(isbn string, name string) {
+	cacheSet(cacheKeyBook+isbn, name)
+}
+
+func getCD(sku string) string {
+	return cacheGet(cacheKeyCD + sku)
+}
+
+func setCD(sku string, title string) {
+	cacheSet(cacheKeyCD+sku, title)
+}
+
+func main() {
+	cache = make(map[string]string)
+	setBook("1234-5678", "Get Ready To Go")
+	setCD("1234-5678", "Get Ready To Go Audio Book")
+	fmt.Println("Book:", getBook("1234-5678"))
+	fmt.Println("DC:", getCD("1234-5678"))
+}
+////////////
+
+////////////
+                                                               ////////////
+
+////////////
 ```
   
   
