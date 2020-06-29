@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T15:18:57.296Z
+date: 2020-06-29T15:19:19.487Z
 tags: 
 editor: markdown
 ---
@@ -162,7 +162,8 @@ func main() {
 	fmt.Println("Hello,", name)
 }
 
-////////////    
+////////////
+
 func main() {
 	visits := 15
 	fmt.Println("Fist visit :", visits == 1)
