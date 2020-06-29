@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T14:57:18.469Z
+date: 2020-06-29T14:58:01.984Z
 tags: 
 editor: markdown
 ---
@@ -119,12 +119,25 @@ func main() {
 	fmt.Println(offset)
 }
 
+////////////  
+func main() {
+	query, limit, offset := "bat", 10, 0
+	query, limit, offset = "ball", offset, 20
+	fmt.Println(query, limit, offset)
+}
 
+////////////    
+  
 ////////////  
 
+////////////    
   
+////////////
+
+////////////    
   
-  
+////////////
+
 ```
   
   
