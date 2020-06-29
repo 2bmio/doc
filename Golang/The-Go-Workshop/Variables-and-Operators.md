@@ -2,7 +2,7 @@
 title: Variables and Operators
 description: 
 published: true
-date: 2020-06-29T15:04:22.141Z
+date: 2020-06-29T15:18:57.296Z
 tags: 
 editor: markdown
 ---
@@ -171,7 +171,9 @@ func main() {
 	fmt.Println("Golden member: ", visits >= 20 && visits < 30)
 	fmt.Println("Platinum member: ", visits >= 30 && visits < 35)
 }
+
 ////////////
+  
 func main() {
 	var count int
 	fmt.Printf("Count: %#v \n", count)
@@ -228,8 +230,8 @@ func add5Point(count *int) {
 	*count += 5
 	fmt.Println("add5Point: ", *count)
 }
+                                                 ////////////
 
-                                                               ////////////
 const globalLimit = 100
 const maxCacheSize = 10 * globalLimit
 
@@ -305,7 +307,7 @@ func swap(a *int, b *int) {
 	*a, *b = *b, *a //core
 	fmt.Println("swap value of A:", *a, "\nswap value of B:", *b)
 }
-                                                             ////////////
+                                                 ////////////
 func main() {
 	message := ""
 	count := 5
