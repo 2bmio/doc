@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:30:16.591Z
+date: 2020-06-30T13:31:08.564Z
 tags: 
 editor: markdown
 ---
@@ -10,19 +10,11 @@ editor: markdown
 # Statements
 Your content here
 
-if / else if / else
+## if / else if / else
 
-```
-for <initial statement>; <condition>; <post statement> {
-  <statements>
-}
 
-for <key>, <value> := range <map> {
-  <statements>
-}
-```
+## switch
 
-switch
 "expression switch"
 "type switch"
 
@@ -37,6 +29,16 @@ default:
 }
 ```
 
+## for
+```
+for <initial statement>; <condition>; <post statement> {
+  <statements>
+}
+
+for <key>, <value> := range <map> {
+  <statements>
+}
+```
 
 ## code
 ```go
