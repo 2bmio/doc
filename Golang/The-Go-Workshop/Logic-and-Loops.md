@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:49:26.986Z
+date: 2020-06-30T13:58:29.054Z
 tags: 
 editor: markdown
 ---
@@ -12,7 +12,7 @@ Your content here
 
 ## if / else if / else
 
-```
+``` go
 if <boolean expression 1> {
 	<code block>
 } else if <boolean expression 2> {
@@ -42,11 +42,13 @@ default:
 ## Loops
 
 ## for
-```
+```go
+// used with slices and arrays
 for <initial statement>; <condition>; <post statement> {
   <statements>
 }
 
+// used with maps types
 for <key>, <value> := range <map> {
   <statements>
 }
