@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:31:08.564Z
+date: 2020-06-30T13:36:39.265Z
 tags: 
 editor: markdown
 ---
@@ -11,6 +11,16 @@ editor: markdown
 Your content here
 
 ## if / else if / else
+
+```
+if <boolean expression 1> {
+	<code block>
+} else if <boolean expression 2> {
+	<code block>
+} else {
+	<code block>
+}
+```
 
 
 ## switch
@@ -28,6 +38,8 @@ default:
   <statements>
 }
 ```
+
+## Loops
 
 ## for
 ```
