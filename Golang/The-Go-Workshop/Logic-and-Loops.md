@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T10:17:05.755Z
+date: 2020-06-30T10:18:22.008Z
 tags: 
 editor: markdown
 ---
@@ -83,6 +83,19 @@ func main() {
 
 // · Exercise 2.07: Expressionless switch Statements
 
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	switch dayBorn := time.Saturday; {
+	case dayBorn == time.Saturday || dayBorn == time.Sunday:
+		fmt.Println("You born on weekend")
+	default:
+		fmt.Println("You born on weekday")
+	}
+}
 
 // ·
 
