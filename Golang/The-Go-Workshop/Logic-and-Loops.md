@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T10:16:56.859Z
+date: 2020-06-30T10:17:05.755Z
 tags: 
 editor: markdown
 ---
@@ -16,7 +16,7 @@ switch
 "expression switch"
 "type switch"
 
-``` go
+```go
 switch <initial statement>; <expresion> {
 case <expresion>:
   <statements>
