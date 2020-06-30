@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:16:42.627Z
+date: 2020-06-30T13:18:48.425Z
 tags: 
 editor: markdown
 ---
@@ -11,6 +11,12 @@ editor: markdown
 Your content here
 
 if / else if / else
+
+```
+for <initial statement>; <condition>; <post statement> {
+  <statements>
+}
+```
 
 switch
 "expression switch"
