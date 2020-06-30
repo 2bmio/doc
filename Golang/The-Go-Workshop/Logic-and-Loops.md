@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:58:29.054Z
+date: 2020-06-30T13:59:04.505Z
 tags: 
 editor: markdown
 ---
@@ -48,7 +48,7 @@ for <initial statement>; <condition>; <post statement> {
   <statements>
 }
 
-// used with maps types
+// used with maps types → range instead of conditin
 for <key>, <value> := range <map> {
   <statements>
 }
