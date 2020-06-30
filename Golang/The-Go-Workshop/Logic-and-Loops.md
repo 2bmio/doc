@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T09:47:05.058Z
+date: 2020-06-30T09:47:17.672Z
 tags: 
 editor: markdown
 ---
@@ -51,7 +51,6 @@ func main() {
 		fmt.Println("Error, you not born yet!")
 	}
 }
-
 
 //······························
 
