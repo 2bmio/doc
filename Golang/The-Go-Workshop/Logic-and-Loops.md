@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T09:47:17.672Z
+date: 2020-06-30T10:03:16.078Z
 tags: 
 editor: markdown
 ---
@@ -54,6 +54,22 @@ func main() {
 
 //······························
 
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	bornDay := time.Sunday
+	switch bornDay {
+	case time.Monday, time.Tuesday, time.Wednesday, time.Thursday, time.Friday:
+		fmt.Printf("you born on weekday!")
+	case time.Saturday, time.Sunday:
+		fmt.Println("you born on weekend")
+	}
+}
 
 //······························
 
