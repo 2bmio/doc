@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T10:06:00.616Z
+date: 2020-06-30T10:16:56.859Z
 tags: 
 editor: markdown
 ---
@@ -16,9 +16,19 @@ switch
 "expression switch"
 "type switch"
 
+``` go
+switch <initial statement>; <expresion> {
+case <expresion>:
+  <statements>
+case <expresion>, <expresion>:
+  <statements>
+default:
+  <statements>
+}
+```
 
 
-
+## code
 ```go
 
 // · Exercise 2.05: Using a switch Statement
