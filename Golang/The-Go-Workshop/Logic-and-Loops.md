@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:36:39.265Z
+date: 2020-06-30T13:49:26.986Z
 tags: 
 editor: markdown
 ---
@@ -121,12 +121,34 @@ func main() {
 	}
 }
 
-// ·
+// · Exercise 2.08: Using the for i Loop
 
+package main
 
-// ·
+import (
+	"fmt"
+)
 
+func main() {
+	for i := 1; i <= 10; i++ {
+		fmt.Println("value of i:", i)
+	}
+}
 
+// · Exercise 2.09: Looping Over Arrays and Slice
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	names := []string{"anibal", "didi", "lavida", "misma"}
+	for i := 0; i < len(names); i++ {
+		fmt.Println("Name is:", i+1, names[i])
+	}
+}
 // ·
 
 
