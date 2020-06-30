@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T13:18:48.425Z
+date: 2020-06-30T13:30:16.591Z
 tags: 
 editor: markdown
 ---
@@ -14,6 +14,10 @@ if / else if / else
 
 ```
 for <initial statement>; <condition>; <post statement> {
+  <statements>
+}
+
+for <key>, <value> := range <map> {
   <statements>
 }
 ```
