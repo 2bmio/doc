@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-07-01T19:01:00.986Z
+date: 2020-07-01T19:04:38.588Z
 tags: 
 editor: markdown
 ---
