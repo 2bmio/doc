@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-07-01T17:37:13.861Z
+date: 2020-07-01T18:47:45.249Z
 tags: 
 editor: markdown
 ---
@@ -171,6 +171,31 @@ func main() {
 }
 
 // ·
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	words := map[string]int{
+		"Gonna": 3,
+		"You":   3,
+		"Give":  2,
+		"Never": 1,
+		"Up":    4,
+	}
+	keyUp := ""
+	valueUp := 0
+	for key, value := range words { // repeat → :=
+		if valueUp < value {
+			valueUp = value
+			keyUp = key
+		}
+	}
+	fmt.Println("Most Popular Word:", keyUp)
+	fmt.Println("With a count of:", valueUp)
+}
 
 
 // ·
