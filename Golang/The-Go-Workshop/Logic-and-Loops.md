@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-06-30T14:07:00.791Z
+date: 2020-07-01T17:11:40.239Z
 tags: 
 editor: markdown
 ---
@@ -151,8 +151,24 @@ func main() {
 		fmt.Println("Name is:", i+1, names[i])
 	}
 }
-// ·
+// · Exercise 2.10: Looping Over a Map
 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	config := map[string]string{
+		"debug":    "1",
+		"logLevel": "warn",
+		"version":  "1.2.1",
+	}
+	for key, value := range config {
+		fmt.Println(key, "=", value)
+	}
+}
 
 // ·
 
