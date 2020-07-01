@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-07-01T18:47:45.249Z
+date: 2020-07-01T18:48:11.356Z
 tags: 
 editor: markdown
 ---
@@ -170,7 +170,8 @@ func main() {
 	}
 }
 
-// ·
+// · Activity 2.02: Looping Over Map Data Using range
+
 package main
 
 import (
