@@ -2,7 +2,7 @@
 title: Logic and Loops
 description: 
 published: true
-date: 2020-07-01T18:48:11.356Z
+date: 2020-07-01T19:01:00.986Z
 tags: 
 editor: markdown
 ---
@@ -199,7 +199,29 @@ func main() {
 }
 
 
-// ·
+// · Exercise 2.11: Using break and continue to Control Loops
+
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+func main() {
+
+	for {
+		r := rand.Intn(8)
+		if r%3 == 0 {
+			fmt.Println("Skip")
+			continue
+		} else if r%2 == 0 {
+			fmt.Println("Stop")
+			break
+		}
+		fmt.Println(r)
+	}
+}
 
 // ·
 
