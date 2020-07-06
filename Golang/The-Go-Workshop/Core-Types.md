@@ -2,7 +2,7 @@
 title: 03 - Core Types
 description: 
 published: true
-date: 2020-07-06T18:03:25.875Z
+date: 2020-07-06T18:04:13.990Z
 tags: 
 editor: markdown
 ---
