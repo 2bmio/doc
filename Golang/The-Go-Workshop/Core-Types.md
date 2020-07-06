@@ -2,7 +2,7 @@
 title: 03 - Core Types
 description: 
 published: true
-date: 2020-07-06T19:20:14.974Z
+date: 2020-07-06T19:46:31.341Z
 tags: 
 editor: markdown
 ---
@@ -150,6 +150,20 @@ func main() {
 
 
 // · Exercise 3.05: Safely Looping over a String
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	content := "AnibaÑsodkk"
+	for index, runeVal := range content {
+		fmt.Println(index, string(runeVal))
+	}
+}
+
 
 // · 
 
