@@ -1,8 +1,8 @@
 ---
-title: Variables and Operators
+title: 01 - Variables and Operators
 description: 
 published: true
-date: 2020-06-29T15:20:56.675Z
+date: 2020-07-06T17:54:54.819Z
 tags: 
 editor: markdown
 ---
