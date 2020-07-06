@@ -1,8 +1,8 @@
 ---
-title: Logic and Loops
+title: 02 - Logic and Loops
 description: 
 published: true
-date: 2020-07-02T16:08:02.163Z
+date: 2020-07-06T17:55:57.378Z
 tags: 
 editor: markdown
 ---
