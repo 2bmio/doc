@@ -2,7 +2,7 @@
 title: 03 - Core Types
 description: 
 published: true
-date: 2020-07-06T18:04:13.990Z
+date: 2020-07-06T18:10:07.694Z
 tags: 
 editor: markdown
 ---
@@ -23,7 +23,7 @@ Your content here
 ### Big Numbers
 
 
-## Byte
+# Byte
 
 
 # Text
