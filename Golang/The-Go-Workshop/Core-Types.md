@@ -2,7 +2,7 @@
 title: 03 - Core Types
 description: 
 published: true
-date: 2020-07-06T18:10:44.497Z
+date: 2020-07-06T18:11:17.152Z
 tags: 
 editor: markdown
 ---
@@ -16,8 +16,8 @@ Your content here
 
 ## Integer
 ## Floating Point
-### Overflow and Wraparound
-### Big Numbers
+## Overflow and Wraparound
+## Big Numbers
 
 
 # Byte
