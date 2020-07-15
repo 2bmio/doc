@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2020-06-25T20:46:00.245Z
+date: 2020-07-15T13:39:23.360Z
 tags: 
 editor: markdown
 ---
@@ -86,5 +86,19 @@ sudo vim /usr/share/vscodium-bin/resources/app/product.json
     "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
     "itemUrl": "https://marketplace.visualstudio.com/items"
 }
+
+```
+
+
+```
+chage -l student
+
+escape pubto
+
+comandos en linux
+
+    uniq
+        jaime manuel jaime ()
+    sort
 
 ```
