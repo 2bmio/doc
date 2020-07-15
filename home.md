@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2020-07-15T13:39:23.360Z
+date: 2020-07-15T13:39:45.732Z
 tags: 
 editor: markdown
 ---
@@ -100,5 +100,8 @@ comandos en linux
     uniq
         jaime manuel jaime ()
     sort
+
+tail -n 10 zcat
+head -n 10 zcat
 
 ```
