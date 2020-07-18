@@ -2,11 +2,37 @@
 title: 01. Getting Started
 description: 
 published: true
-date: 2020-07-18T05:51:26.354Z
+date: 2020-07-18T14:58:06.258Z
 tags: 
 editor: markdown
 ---
 
-# Header
-Your content here
+# PRIMEROS PASOS CON RED HAT ENTERPRISE LINUX
 
+## Primeros pasos con Red Hat Enterprise Linux
+https://access.redhat.com/products/red-hat-enterprise-linux#getstarted
+
+## El enfoque de código abierto
+https://opensource.com/open-source-way
+
+# ENLACES OFICIALES DE CURSOS Y EXÁMENES
+
+--------------
+CURSOS
+--------------
+  RH124: https://www.redhat.com/en/services/training/rh124-red-hat-system-administration-i
+
+  RH134: https://www.redhat.com/en/services/training/rh134-red-hat-system-administration-ii	
+
+  RH294: https://www.redhat.com/en/services/training/rh294-red-hat-system-administration-iii-linux-automation
+
+  RH318: https://www.redhat.com/en/services/training/rh318-red-hat-virtualization
+
+-------------------
+EXÁMENES
+-------------------
+  EX200 (RHCSA): https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
+
+  EX294 (RHCE): https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-8
+
+  EX318 (RHC Specialist in Virtualization): https://www.redhat.com/en/services/training/ex318-red-hat-certified-specialist-virtualization-exam
