@@ -2,7 +2,7 @@
 title: 01. Getting Started
 description: 
 published: true
-date: 2020-07-19T04:00:32.093Z
+date: 2020-07-19T04:31:09.543Z
 tags: 
 editor: markdown
 ---
@@ -50,12 +50,26 @@ localectl set-locale LANG=fr_FR.urt8
 
 ### Language Packs
 ```
+locale(7), localectl(1), locale.conf(5), vconsole.conf(5), unicode(7), and utf-8(7) man pages
+
 yum list langpacks-*
 yum install langpacks-fr
 yum repoquery --whatsupplements langpack-fr
 ```
 
+### What is Open Source Software?
 
+>  Is software with source code that anyone can use, study, modify, and share
+> They grant the user the right to run the program and also to view, modify, compile, and redistribute the source royalty-free to others
 
+### Types of Open Source Licenses
+
++ Copyleft licenses that are designed to encourage keeping code open source
+	+ GNU General Public License (GPL)
+	+ Lesser GNU Public License (LGPL)
++ Permissive licenses that are designed to maximize code reusability.
+	+ MIT/X11 license
+	+ Simplified BSD
+	+ Apache Software License 2.0
 
 
