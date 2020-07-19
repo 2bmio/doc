@@ -2,7 +2,7 @@
 title: 01. Getting Started
 description: 
 published: true
-date: 2020-07-19T04:31:09.543Z
+date: 2020-07-19T05:02:37.339Z
 tags: 
 editor: markdown
 ---
@@ -71,5 +71,42 @@ yum repoquery --whatsupplements langpack-fr
 	+ MIT/X11 license
 	+ Simplified BSD
 	+ Apache Software License 2.0
+
+
+### Who Develops Open Source Software?
+
+> Open source development today is overwhelmingly
+professional.
+
+### Who is Red Hat?
+
+> Red Hat's mission is to be the catalyst in communities of customers, contributors, and partners creating better technology the open source way
+
+### What is a Linux distribution?
+> Distributions generally have many common characteristics:
+>
+> Distributions consist of a Linux kernel and supporting user space programs.
+>
+> Distributions can be small and single-purpose or include thousands of open source programs.
+>
+> Distributions must provide a means of installing and updating the distribution and its components.
+>
+> The provider of the distribution must support that software, and ideally, be participating directly in the community developing that software.
+
+
+### Development of Red Hat Enterprise Linux
+
+> Red Hat develops and integrates open source software into RHEL through a multistage process:
+>
+> Red Hat participates ... Upstream Porjects
+>
+> Red Hat sponsors and integrates ... Community Platforms
+>
+> Red Hat stabilizes ... support products platdorms, and solutions
+>
+
+
+
+
 
 
