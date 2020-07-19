@@ -2,7 +2,7 @@
 title: 02. Accessing the Command Line
 description: 
 published: true
-date: 2020-07-19T07:54:28.564Z
+date: 2020-07-19T08:12:44.175Z
 tags: 
 editor: markdown
 ---
@@ -31,6 +31,22 @@ Your content here
 virtual console that is not currently being used by a login session.
 >
 > a headless server might have a login prompt provided by its serial console, running on a serial port which is connected to a networked console server for remote access to the serial console.
+
+
+### Logging in over the Network
+
+> Secure Shell (SSH) provide by OpenSSH as a program get a shell prompt on a remote system.
+>
+> ssh command encrypts the connection to secure the communication
+>
+> ssh best practictice include public key authentication `[user@host ~]$ ssh -i mylab.pem remoteuser@remotehost` the private key must have 600 permission, to achive that use chmod 600 mylab.pem
+> 
+> Each time you connect to a remote host with ssh, the remote host sends ssh its host key to authenticate itself and to help set up encrypted communication. The ssh-agent use ~/.ssh/known_hosts
+
+
+
+
+
 
 
 
