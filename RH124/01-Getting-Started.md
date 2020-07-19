@@ -2,7 +2,7 @@
 title: 01. Getting Started
 description: 
 published: true
-date: 2020-07-18T14:58:06.258Z
+date: 2020-07-19T03:56:43.187Z
 tags: 
 editor: markdown
 ---
@@ -36,3 +36,24 @@ EXÁMENES
   EX294 (RHCE): https://www.redhat.com/en/services/training/ex294-red-hat-certified-engineer-rhce-exam-red-hat-enterprise-linux-8
 
   EX318 (RHC Specialist in Virtualization): https://www.redhat.com/en/services/training/ex318-red-hat-certified-specialist-virtualization-exam
+  
+
+### System-wide Default Language Settings
+```
+localectl(1)
+vconsole.conf(5)
+
+localectl
+localectl set-locale LANG=fr_FR.urt8
+/etc/locale.conf
+```
+
+### Language Packs
+```
+yum list langpacks-*
+```
+
+
+
+
+
