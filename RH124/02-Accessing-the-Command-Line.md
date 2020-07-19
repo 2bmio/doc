@@ -2,7 +2,7 @@
 title: 02. Accessing the Command Line
 description: 
 published: true
-date: 2020-07-19T08:59:55.626Z
+date: 2020-07-19T09:04:18.140Z
 tags: 
 editor: markdown
 ---
@@ -62,6 +62,12 @@ virtual console that is not currently being used by a login session.
 
 >  use the semicolon ( ; ) as a command separator, if you want to type more than one command on a single line `[user@host]$ command1;command2`
 
+
+### Essentials Commands
+References
+bash(1), date(1), file(1), cat(1), more(1), less(1), head(1), passwd(1), tail(1),
+and wc(1) man pages
+
 ```
 ls
 wc
@@ -77,6 +83,20 @@ history
 history !number ... run again any position number
 history !string ... run again last match string
 ```
+
+### Command-line Editing Shortcuts
+
+> Jump to the beginning of the command line. **Ctrl+A**
+> Jump to the end of the command line. **Ctrl+E**
+> Clear from the cursor to the beginning of the command line **Ctrl+U**
+> Clear from the cursor to the end of the command line. **Ctrl+K**
+> Jump to the beginning of the previous word on the command line **Ctrl+LeftArrow**
+> Jump to the end of the next word on the command line **Ctrl+RightArrow**
+> Search the history list of commands for a pattern. **Ctrl+R**
+
+
+
+
 
 
 
