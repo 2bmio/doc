@@ -2,7 +2,7 @@
 title: 01. Getting Started
 description: 
 published: true
-date: 2020-07-19T03:56:43.187Z
+date: 2020-07-19T04:00:32.093Z
 tags: 
 editor: markdown
 ---
@@ -51,6 +51,8 @@ localectl set-locale LANG=fr_FR.urt8
 ### Language Packs
 ```
 yum list langpacks-*
+yum install langpacks-fr
+yum repoquery --whatsupplements langpack-fr
 ```
 
 
