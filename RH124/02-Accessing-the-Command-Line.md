@@ -2,7 +2,7 @@
 title: 02. Accessing the Command Line
 description: 
 published: true
-date: 2020-07-19T08:17:01.355Z
+date: 2020-07-19T08:59:55.626Z
 tags: 
 editor: markdown
 ---
@@ -51,6 +51,32 @@ virtual console that is not currently being used by a login session.
 > You cant enter `exit` or **Ctrl+D**
 
 
+
+### Gnome shortcuts
+
+> Open Message Bar **Super+M**
+> Open the Enter a Command **Alt+F2**
+> Lock the screen **Super + L** 
+
+### Basic Command Syntax
+
+>  use the semicolon ( ; ) as a command separator, if you want to type more than one command on a single line `[user@host]$ command1;command2`
+
+```
+ls
+wc
+cat
+date
+file
+passwd
+less
+head -n
+tail -n
+useradd
+history
+history !number ... run again any position number
+history !string ... run again last match string
+```
 
 
 
