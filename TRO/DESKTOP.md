@@ -2,7 +2,7 @@
 title: Desktop
 description: 
 published: true
-date: 2020-09-30T22:19:41.692Z
+date: 2020-09-30T22:20:16.559Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:08:35.997Z
@@ -18,7 +18,7 @@ windoww manager
 
 ## Gnome
 
-###  VS Code is opened instead of system path
+###  VSCode is opened instead of system path
 
 ```
 vim ~/.config/mimeapps.lis
