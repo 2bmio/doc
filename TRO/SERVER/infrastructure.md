@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-02T15:39:19.077Z
+date: 2020-10-02T17:03:01.295Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -20,6 +20,11 @@ dateCreated: 2020-09-30T22:53:48.754Z
 engine-upgrade-check
 hosted-engine --vm-status
 yum update ovirt\*setup\*
+```
+
+### Something went wrong, connection is closed
+
+```
 ```
 
 
