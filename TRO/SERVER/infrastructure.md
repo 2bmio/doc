@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-02T15:33:51.732Z
+date: 2020-10-02T15:34:01.129Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -36,3 +36,5 @@ engine-db-query --statement "update vm_dynamic SET status=0 where vm_guid='yyy';
 ```
 
 ## Proxmox
+
+
