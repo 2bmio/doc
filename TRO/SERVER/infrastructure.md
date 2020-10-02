@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-02T18:52:11.537Z
+date: 2020-10-02T20:45:59.744Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -57,5 +57,28 @@ engine-db-query --statement "update vm_dynamic SET status=0 where vm_guid='yyy';
 ```
 
 ## Proxmox
+
+### Guide to GPU Passthrough on VMs
+https://www.reddit.com/r/homelab/comments/b5xpua/the_ultimate_beginners_guide_to_gpu_passthrough/
+
+```
+echo "options vfio-pci ids=10de:128b,10de:0e0f disable_vga=1"> /etc/modprobe.d/vfio.conf
+
+cd /sys/bus/pci/devices/0000:02:00.0/
+echo 1 > rom
+cat rom > /usr/share/kvm/AsusGeForceGT710B.2048.bin
+echo 0 > rom
+```
+```
+# vim /etc/pve/qemu-server/XXX.conf
+hostpci0: 02:00,pcie=1,/usr/share/kvm/AsusGeForceGT710B.2048.bin
+```
+
+
+
+
+
+
+
 
 
