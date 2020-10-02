@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-09-30T22:53:48.754Z
+date: 2020-10-02T15:33:51.732Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -34,3 +34,5 @@ Forece turn off the machine where yyy → vm_guid
 ```
 engine-db-query --statement "update vm_dynamic SET status=0 where vm_guid='yyy';"
 ```
+
+## Proxmox
