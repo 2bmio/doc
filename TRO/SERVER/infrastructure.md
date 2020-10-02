@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-02T15:34:01.129Z
+date: 2020-10-02T15:35:41.188Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -13,6 +13,13 @@ dateCreated: 2020-09-30T22:53:48.754Z
 
 
 ## Ovirt / RHEV
+
+### Update and Upgrade
+
+```
+
+```
+
 
 ### VM stuck in "Migrating to" or "Shutting down"
 
