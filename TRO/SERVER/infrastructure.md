@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-02T20:50:31.129Z
+date: 2020-10-03T20:22:22.457Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -13,6 +13,15 @@ dateCreated: 2020-09-30T22:53:48.754Z
 
 
 ## Ovirt / RHEV
+
+
+### Automate virtual machine deployment with Ansible: Design
+
+```
+
+Automate virtual machine deployment with Ansible: Design
+
+```
 
 ### Update and Upgrade
 
