@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-10-04T17:24:38.441Z
+date: 2020-10-08T08:44:59.684Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -30,3 +30,8 @@ https://free-snippets.com/2020/09/07/installing-rhvh-on-uefi-hardware-using-pxe-
 https://vnugget.com/
 
 # ·····
+
+https://www.techbeatly.com/2018/06/setup-your-vim-editor-for-ansible-playbook.html
+
+# ·····
+
