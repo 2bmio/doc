@@ -2,7 +2,7 @@
 title: Infrastructure
 description: 
 published: true
-date: 2020-10-12T15:29:22.086Z
+date: 2020-10-12T17:46:28.572Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-30T22:53:48.754Z
@@ -99,15 +99,6 @@ hostpci0: 02:00,pcie=1,/usr/share/kvm/AsusGeForceGT710B.2048.bin
 ---
 
 
-
-
-## pfSense
-
----
----
----
-
-yum clean all
 
 
 
