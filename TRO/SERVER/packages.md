@@ -2,7 +2,7 @@
 title: Packages
 description: 
 published: true
-date: 2020-10-12T18:04:59.977Z
+date: 2020-10-12T18:07:23.852Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-12T18:04:59.977Z
@@ -11,6 +11,13 @@ dateCreated: 2020-10-12T18:04:59.977Z
 # pfSense
 Your content here
 
+
+# yum
+
+```
+yum clean all
+yum repolist enabled
+```
 
 # Named/Bind9
 
