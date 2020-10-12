@@ -2,7 +2,7 @@
 title: Packages
 description: 
 published: true
-date: 2020-10-12T18:07:23.852Z
+date: 2020-10-12T21:13:27.503Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-12T18:04:59.977Z
@@ -82,6 +82,22 @@ $ttl 38400
 2.1.168.192.in-addr.arpa.     IN      PTR     host-02.example.com.
 3.1.168.192.in-addr.arpa.     IN      PTR     host-03.example.com.
 ```
+
+
+# ansible
+
+
+```
+dnf -y install python3-pip
+pip3 install --upgrade pip
+
+dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+dnf install  --enablerepo epel-playground  ansible
+
+# or
+pip3 install ansible --user
+```
+
 
 
 
