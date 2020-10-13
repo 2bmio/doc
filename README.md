@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-10-10T09:10:53.971Z
+date: 2020-10-13T07:06:46.877Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -50,3 +50,7 @@ https://thoughtbot.com/blog/how-to-edit-an-existing-vim-macro
 
 https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db
 
+# ·····
+
+
+https://github.com/mingrammer/diagrams
