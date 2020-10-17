@@ -2,7 +2,7 @@
 title: Packages
 description: 
 published: true
-date: 2020-10-12T21:13:27.503Z
+date: 2020-10-17T22:37:59.838Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-12T18:04:59.977Z
@@ -100,4 +100,7 @@ pip3 install ansible --user
 
 
 
+# typing tutor
+
+https://github.com/pb-/gotypist
 
