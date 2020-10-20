@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-10-20T06:38:30.278Z
+date: 2020-10-20T21:54:38.716Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -54,3 +54,8 @@ https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c4411
 
 
 https://github.com/mingrammer/diagrams
+
+
+# ·····
+
+https://github.com/glutanimate/review-heatmap#installation
