@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-10-20T21:54:38.716Z
+date: 2020-10-21T17:11:26.906Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -59,3 +59,9 @@ https://github.com/mingrammer/diagrams
 # ·····
 
 https://github.com/glutanimate/review-heatmap#installation
+
+
+# ·····
+
+
+https://github.com/Huion-Linux/DIGImend-kernel-drivers-for-Huion/issues/4
