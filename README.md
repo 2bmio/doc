@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-11-11T22:59:16.588Z
+date: 2020-11-11T23:11:16.633Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -77,3 +77,9 @@ https://gist.github.com/Deevad/51820854ffd5ea5cd883
 # ·····
 
 https://pritunl.com/
+
+# ·····
+
+https://youtu.be/WAjy6K3kUC0?t=7145
+
+
