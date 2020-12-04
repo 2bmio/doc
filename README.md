@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-11-11T23:11:16.633Z
+date: 2020-12-04T20:36:21.383Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -82,4 +82,6 @@ https://pritunl.com/
 
 https://youtu.be/WAjy6K3kUC0?t=7145
 
+# ·····
 
+https://fedoramagazine.org/getting-started-with-fedora-coreos/
