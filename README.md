@@ -2,7 +2,7 @@
 title: Wellcome!
 description: wellcome page!
 published: true
-date: 2020-12-17T09:43:19.587Z
+date: 2020-12-23T22:56:58.513Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T21:54:00.081Z
@@ -146,3 +146,6 @@ journalctl
 
 # ·····
 
+https://github.com/k0sproject/k0s/blob/main/docs/create-cluster.md
+
+# ·····
