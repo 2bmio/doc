@@ -2,9 +2,10 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-06-05T17:43:00.929Z
+date: 2020-12-25T18:09:59.060Z
 tags: 
 editor: markdown
+dateCreated: 2020-06-04T23:43:46.940Z
 ---
 
 # 03. INSTALLATION AND CONFIGURATION
@@ -130,5 +131,47 @@ microk8s.kubectl -n kube-system describe secret kubernetes-dashboard-token-XXXXX
 microk8s.kubectl port-forward -n kube-system service/kubernetes-dashboard 10443:443 --address 0.0.0.0
 
 https://[microk8s-master-ip]:10443
+```
+
+
+## k0s
+https://k0sproject.io/
+
+
+### install
+
+```
+
+curl -sSLf https://get.k0s.sh | sh
+
+mkdir /root/bin/
+curl -sSLf https://github.com/k0sproject/k0s/releases/download/v0.9.0/k0s-v0.9.0-amd64 > /root/bin/k0s
+chmod 755 /root/bin/k0s
+
+
+sudo curl --output /usr/local/sbin/kubectl -L "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+
+
+
+sudo chmod +x /usr/local/sbin/kubectl
+sudo chmod +x /root/bin/k0s
+
+mkdir -p ${HOME}/.k0s
+k0s default-config | tee ${HOME}/.k0s/k0s.yaml
+
+
+export KUBECONFIG="${HOME}/.k0s/kubeconfig"
+kubectl get pods --all-namespaces
+
+
+flexVolumeDriverPath: /root/.k0s/libexec/k0s/kubelet-plugins/volume/exec/nodeagent~uds
+volumePluginDir
+k0s server -c ${HOME}/.k0s/k0s.yaml --enable-worker &
+
+
+
+k0s token create --role=worker
+k0s worker "long-join-token"
+
 ```
 
