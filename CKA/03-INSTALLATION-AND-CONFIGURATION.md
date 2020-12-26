@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-12-26T01:18:34.547Z
+date: 2020-12-26T01:23:24.204Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T23:43:46.940Z
@@ -172,6 +172,12 @@ k0s server -c ${HOME}/.k0s/k0s.yaml --enable-worker &
 
 k0s token create --role=worker
 k0s worker "long-join-token"
+
+
+k0s server -c ${HOME}/.k0s/k0s.yaml
+k0s server -c ${HOME}/.k0s/k0s.yaml --enable-worker &
+
+
 
 ```
 
