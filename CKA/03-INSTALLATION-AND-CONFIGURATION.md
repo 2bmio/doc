@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-12-26T01:23:35.294Z
+date: 2020-12-26T01:33:34.385Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T23:43:46.940Z
@@ -175,7 +175,13 @@ k0s worker "long-join-token"
 
 
 k0s server -c ${HOME}/.k0s/k0s.yaml &
+k0s token create --role=server
+k0s server <join-token>
+
 k0s server -c ${HOME}/.k0s/k0s.yaml --enable-worker &
+
+cat /var/lib/k0s/pki/admin.conf | tee ~/.k0s/kubeconfig
+
 
 
 
