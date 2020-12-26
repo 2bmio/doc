@@ -2,7 +2,7 @@
 title: 03. INSTALLATION AND CONFIGURATION
 description: 
 published: true
-date: 2020-12-25T18:09:59.060Z
+date: 2020-12-26T01:18:34.547Z
 tags: 
 editor: markdown
 dateCreated: 2020-06-04T23:43:46.940Z
@@ -159,7 +159,7 @@ sudo chmod +x /root/bin/k0s
 mkdir -p ${HOME}/.k0s
 k0s default-config | tee ${HOME}/.k0s/k0s.yaml
 
-
+mkdir -p ${HOME}/.k0s/libexec
 export KUBECONFIG="${HOME}/.k0s/kubeconfig"
 kubectl get pods --all-namespaces
 
